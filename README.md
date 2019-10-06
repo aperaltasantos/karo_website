@@ -1,42 +1,94 @@
-# [Academic Kickstart](https://sourcethemes.com/academic/)
+# Academic Kickstart Netlify CMS
+<p align="center">
+  <img src="https://github.com/elloza/academic-kickstart-netlify-cms/blob/master/readmeimg/WeeklySourGuernseycow-size_restricted.gif">
+</p>
 
-**Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
+## Description
 
-**Academic Kickstart** provides a minimal template to kickstart your new website.
+This repository it based on the [Academic Theme Hugo](https://github.com/gcushen/hugo-academic). It has been integrated with NetlifyCMS and the following content has been added:
 
-- [**Get Started**](#install)
-- [View the documentation](https://sourcethemes.com/academic/docs/)
-- [Ask a question](http://discuss.gohugo.io/)
-- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
-- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- Support development of Academic:
-  - [Donate a coffee](https://paypal.me/cushen)
-  - [Become a backer on Patreon](https://www.patreon.com/cushen)
-  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - [Wear the T-shirt](https://academic.threadless.com/)
+- [x] Posts
+- [x] Publications
+- [x] Projects 
+- [x] Teaching
+- [x] Contact
+- [x] Talks
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+In addition, pages for the managments of the CMS' sections.
 
-## Install
 
-You can choose from one of the following four methods to install:
+- [x] Global configuration
+- [x] About
+- [x] Contact
+- [x] Posts
+- [x] Projects
+- [x] Publications
+- [x] Publications selected
+- [x] Tags
+- [x] Teaching
 
-* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
-* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
-* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
-* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
 
-Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
+The original template has been modified in order to match with the structure of pictures of Netlify CMS (almost all the changes are related to images path in the partials of the theme)
 
-## Ecosystem
 
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
+## Instructions
 
-## License
+If you want to deploy this in NetlifyCMS easily, follow the next steps:
 
-Copyright 2017-present [George Cushen](https://georgecushen.com).
+1. Deploying this repository in NetlifyCMS
 
-Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/elloza/academic-kickstart-netlify-cms)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+2. Enable Identity service and Git Gateway
+
+3. Add postprocessing script for admin zone access
+
+  * Insert this before end of head:
+
+  ```javascript
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  ```
+  
+  * Insert this code before end of body:
+
+  ```javascript
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  ```
+
+
+4. Give access to users
+
+5  Confirm email and set password 
+
+6. Access  to your new site admin page with /admin 
+
+7. In this section you can start editing your site
+
+
+## WIP
+
+- [ ] Bugs in the talks section
+- [ ] Check carefully all fields
+
+## Result
+
+<p align="center">
+  <img src="https://github.com/elloza/academic-kickstart-netlify-cms/blob/master/readmeimg/result.gif">
+</p>
+
+## References:
+
+Thanks a lot to :
+
+* Blog of [@ragasirtahk](https://github.com/ragasirtahk) --> [Blog](https://www.ragasirtahk.tk/)
+* People of NetlifyCMS Gitter channel
