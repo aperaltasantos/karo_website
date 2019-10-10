@@ -60,7 +60,7 @@ align_right = true
 
 [[params.organizations]]
 name = "Public Health Consultant"
-url = "https://www.washington.edu/"
+url = ""
 
 
 list_children = true

@@ -13,8 +13,8 @@ header:
 ---
 ### This is my first post 
 
-This is my first post, today with no content, in the future you can expect content about health policy news arounf the world, science, and some more nerdy stuff from R to molecular cousine and indie rock.
+This is my first post, in the future you can expect content about Mental Health In Europe, Mindfulness and Healthy Settings.
 
-> “Without data, you're just another person with an opinion.”
+> “If we hope to go anywhere or develop ourselves in any way, we can only step from where we are standing. If we don’t really know where we are standing… We may only go in circles…” Jon Kabat-Zinn
 
 
