@@ -45,9 +45,9 @@ math = false
 name = "Karoline Noworyta"
 phone = "+49 1578 1068155"
 privacy_pack = false
-publication_types = ["Uncategorized", "Conference paper", "Journal article", "Manuscript", "Report", "Book", "Book section"]
+publication_types = ["Uncategorized", "Professionak", "Journal article", "Manuscript", "Report", "Book", "Book section"]
 reading_time = true
-role = "Public Health Specialist Consultant"
+role = "B.Sc., MPH (Management & Leadership)"
 section_pager = true
 sharing = true
 skype = "karonoworyta"
@@ -59,7 +59,7 @@ zoom = 15.0
 align_right = true
 
 [[params.organizations]]
-name = "University of Washington"
+name = "Public Health Consultant"
 url = "https://www.washington.edu/"
 
 
@@ -69,22 +69,23 @@ publication_format = 3.0
 [[params.social]]
 icon = "envelope"
 icon_pack = "fa"
-link = "mailto:aperalta@uw.edu"
+link = "mailto:karo.noworyta@gmail.com "
 
 [[params.social]]
 icon = "twitter"
 icon_pack = "fa"
-link = "//twitter.com/andre_peralta"
+link = "//twitter.com/@Karo_Nowo"
 
-[[params.social]]
-icon = "google-scholar"
-icon_pack = "ai"
-link = "https://scholar.google.com/citations?user=Cjg0oXYAAAAJ&hl=en"
 
-[[params.social]]
-icon = "github"
-icon_pack = "fa"
-link = "https://github.com/aperaltasantos"
+#[[params.social]]
+#icon = "google-scholar"
+#icon_pack = "ai"
+#link = "https://scholar.google.com/citations?user=Cjg0oXYAAAAJ&hl=en"
+
+#[[params.social]]
+#icon = "github"
+#icon_pack = "fa"
+#link = "https://github.com/aperaltasantos"
 
 [params.talks]
 time = true
@@ -97,7 +98,7 @@ url = "#about"
 weight = 1.0
 
 [[menu.main]]
-name = "Publications"
+name = "Work Experience"
 url = "#publications"
 weight = 2.0
 
