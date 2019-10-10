@@ -2,8 +2,8 @@
 widget: publications
 active: true
 date: '2018-05-10T00:00:00+02:00'
-title: Publications
-subtitle: Publications
+title: Work Experience
+subtitle: 
 weight: '40'
 count: '5'
 list_format: '0'

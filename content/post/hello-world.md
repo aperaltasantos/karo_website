@@ -6,7 +6,7 @@ draft: false
 tags:
   - academic
   - personal
-summary: From health policy to indie rock
+summary: 
 header:
   caption: Lisbon
   image: /img/lisbon.jpg
