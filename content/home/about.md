@@ -19,5 +19,8 @@ education:
 
 ---
 # About me 
-I am a public health professional, currently working as an independent consultant on several projects for IAVI (International AIDS vaccine initiative) which focuses
-on developing a therapeutic and preventive HIV/AIDS and Ipso (international psychosocial organization) which focuses on mental health promotion services mainly for refugees and migrants.
+I am a public health professional, currently working as an independent consultant on different projects for German and international organizations. I have experience in communication and advocacy, project and event management and in strategy development. 
+Currently I work with  [MOOVE GmbH](https://www.my-moove.de)  which focuses on health promotion and disease prevention at the workplace. I give seminars and workshops that focus on healthy living, with a particular focus on stress prevention and management.
+I work as a communication consultant for [IAVI (International AIDS vaccine initiative)](https://www.iavi.org), which focuses on developing a therapeutic and preventive HIV/AIDS vaccine. 
+And I work for [SOPS](https://sops.de), which focuses on bringing together social projects and sponsors throughout Germany. I help developing a national network of organizations and sponsors as well as with marketing and communication. 
+
