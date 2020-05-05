@@ -24,7 +24,7 @@ smartypants = true
 
 [params]
 address = "Brussels - Koln"
-avatar = "img/photo.png"
+avatar = "img/photo2.png"
 color_theme = "default"
 comment_count = true
 custom_css = []
