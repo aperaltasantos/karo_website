@@ -22,7 +22,7 @@ Finished projects:
 IPSO, international psychosocial organization (my tasks: advocacy and communication strategy, EU network development) 
 WPHA, Washington Public Health Alliance (my tasks: interviewing global health organizations on the value that global health work brings to Washington state, contributing to the [Landscape study](https://www.wghalliance.org/wp-content/uploads/WA_GlobalHealth_Landscape_Study.pdf) 
 Furtwangen University (my tasks: classes on health communication and advocacy strategy)
-Under the new button “A state of mind” 
+ 
 
 
 For many years I have been interested in mental health promotion and what we need to do to prevent and manage anxiety and depression as well as thrive at work, in school and in life. At EuroHealthNet I was contributing to the Healthy Workplaces Manage Stress Campaign, ran by the European Agency for Safety and Health at Work, EU – OSHA. I wrote a policy brief on “Mental Health Promotion at work” and I organized an EU debate on Mental Health with expert from different member states and the European Commission. 
